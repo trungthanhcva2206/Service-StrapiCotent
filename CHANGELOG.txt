@@ -1,1 +1,5 @@
+Changelog
+
+v1.0
+- Sinh ra tự động các API BackEnd để cung cấp dữ liệu từ cơ sở dữ liệu đến các service khác. 
 
