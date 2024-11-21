@@ -19,14 +19,13 @@ Nền tảng công nghệ LCDP sử dụng: **Strapi**
 1. Truy cập trang phát hành chính thức tại: [Releases](https://github.com/trungthanhcva2206/Service-StrapiCotent/releases).
 2. Chọn phiên bản phù hợp với nhu cầu của bạn.
 3. Trong phần **Assets**, tải tệp:
-   - `Source code (zip)` hoặc
-   - `Source code (tar.gz)`.
+   - `export_20241120202453.tar.gz`
 
 #### Bước 2: Import vô Strapi
 ```bash
 # Truy cập đến Strapi rồi thực hiện lệnh bên dưới để import vô Strapi
 # /path/to/my/file: Phần này là đường dẫn đến tệp mà vừa tải ở bước 1.
-npm run strapi import -- -f /path/to/my/file/export_20241120202453.tar.gz.enc
+npm run strapi import -- -f /path/to/my/file/export_20241120202453.tar.gz
 ```
 ## Tác giả
 - Nguyễn Lê Trung Thành
